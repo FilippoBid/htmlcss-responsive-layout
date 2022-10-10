@@ -1,0 +1,28 @@
+*{box-sizing: border-box;
+padding: 0;margin: 0;}
+
+:root{
+    --primary-color:#0084fd;
+    --secondary-color:#9792e4;
+
+    
+}
+
+.bg-color1{background-color: var(--primary-color);}
+.bg-color2{background-color: var(--secondary-color);}
+
+.padd1{padding: 1rem;}
+.padd2{padding: 2rem;}
+.padd3{padding: 3rem;}
+
+.row{display: flex;flex-wrap: wrap;}
+.allign{justify-items: center;}
+
+
+
+
+
+
+
+
+.row.allign.padd1 i{font-size: 2rem;margin-left: auto;color: white;}
