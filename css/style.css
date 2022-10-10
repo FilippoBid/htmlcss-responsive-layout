@@ -14,9 +14,16 @@ padding: 0;margin: 0;}
 .padd1{padding: 1rem;}
 .padd2{padding: 2rem;}
 .padd3{padding: 3rem;}
-
+.margb1{margin-bottom: 1rem;}
+.margb2{margin-bottom: 2rem;}
+.autoM{margin: auto;}
+/* .paddx1y2{padding: 1.5rem,1rem;} */
+button{border-radius: 20px;background-color: white;padding: 0.5rem}
 .row{display: flex;flex-wrap: wrap;}
 .allign{justify-items: center;}
+.column{flex-direction: column;}
+.card{border-radius: 20px;border: 1px solid red; min-height: 6rem;}
+.bkgn{width: 100vw;}
 
 
 
@@ -26,3 +33,7 @@ padding: 0;margin: 0;}
 
 
 .row.allign.padd1 i{font-size: 2rem;margin-left: auto;color: white;}
+.cardcontainer>*{flex-basis: 100%;}
+.cardcontainer{gap: 1rem;}
+.cardcontainer .card.padd1>*{text-align: center;}
+.containerbig.bg-color2 .row.column>*{flex-basis: 100%;}
