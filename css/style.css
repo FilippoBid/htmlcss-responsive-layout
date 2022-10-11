@@ -3,6 +3,7 @@ padding: 0;margin: 0;}
 
 :root{
     --primary-color:#0084fd;
+    --third-color:#535353;
     --secondary-color:#9792e4;
 
     
@@ -10,6 +11,7 @@ padding: 0;margin: 0;}
 
 .bg-color1{background-color: var(--primary-color);}
 .bg-color2{background-color: var(--secondary-color);}
+.bg-color3{background-color: var(--third-color);}
 
 .padd1{padding: 1rem;}
 .padd2{padding: 2rem;}
@@ -24,8 +26,16 @@ button{border-radius: 20px;background-color: white;padding: 0.5rem}
 .column{flex-direction: column;}
 .card{border-radius: 20px;border: 1px solid red; min-height: 6rem;}
 .bkgn{width: 100vw;}
+.provvheight{min-height: 6rem;border: 1px solid red;}
+.centertxt{text-align: center;}
 
 
+
+
+/* grandezze */
+.onefour{flex-basis: calc(100%/4);}
+.onetwo{flex-basis: calc(50%);}
+.onethird{flex-basis: calc(100%/3);}
 
 
 

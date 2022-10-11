@@ -1,5 +1,9 @@
 @media screen and (min-width: 768px)  {
-    
+    .cardcontainer>*{flex-basis: calc((100% - 2rem) / 3);}
+    .big-card{flex-basis: calc(((100% - 2rem) / 3) * 2) ;}
+    .T-onetwo{flex-direction: row;}
+    .T-onetwo>*{flex-basis:calc(50% - 1rem);}
+    .T-row{flex-direction: row;}
 }
 
 
@@ -12,5 +16,7 @@
 @media screen and (min-width: 920px)  {
     .row.allign.padd1 i{display: none;}
     .containerbig{width: 920px;margin: auto;}
+    .D-no-column{flex-direction: row;}
+    .D-onethird>*{flex-basis:calc((100% / 3) - 1rem)}
     
 }
