@@ -1,9 +1,12 @@
 @media screen and (min-width: 768px)  {
     .cardcontainer>*{flex-basis: calc((100% - 2rem) / 3);}
-    .big-card{flex-basis: calc(((100% - 2rem) / 3) * 2) ;}
+    .big-card{flex-basis: calc(((100% - 1rem) / 3) * 2) ;}
+    /* #topsmall{flex-basis: calc((100% - 1rem) / 3)} */
     .T-onetwo{flex-direction: row;}
     .T-onetwo>*{flex-basis:calc(50% - 1rem);}
     .T-row{flex-direction: row;}
+    .D-imgphone{justify-content: flex-start;}
+
 }
 
 
@@ -18,5 +21,6 @@
     .containerbig{width: 920px;margin: auto;}
     .D-no-column{flex-direction: row;}
     .D-onethird>*{flex-basis:calc((100% / 3) - 1rem)}
+    .D-imgphone{flex-direction: row;}
     
 }

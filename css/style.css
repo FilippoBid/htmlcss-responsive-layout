@@ -24,11 +24,17 @@ button{border-radius: 20px;background-color: white;padding: 0.5rem}
 .row{display: flex;flex-wrap: wrap;}
 .allign{justify-items: center;}
 .column{flex-direction: column;}
-.card{border-radius: 20px;border: 1px solid red; min-height: 6rem;}
+.card{border-radius: 20px;border: 1px solid red;}
 .bkgn{width: 100vw;}
 .provvheight{min-height: 6rem;border: 1px solid red;}
 .centertxt{text-align: center;}
-
+.lefttxt{text-align: left;}
+.app-development{background-color: white;border: none;}
+.borderimg>*{display: block;object-fit: cover;border-radius: 60%;width: 100%;}
+.borderimg{border-radius: 50%;width:100%;padding: 5rem;}
+.containerbig.centertxt.padd1 .card.margb1{background-color: var(--secondary-color);border: none;}
+.row.column.cardcontainer.T-onetwo.D-onethird.margb2>*{background-color: white;border: none;}
+.row.column.cardcontainer.T-onetwo.D-onethird.margb2 .card button{border: none; background-color: var(--secondary-color);color: white;}
 
 
 
@@ -46,4 +52,11 @@ button{border-radius: 20px;background-color: white;padding: 0.5rem}
 .cardcontainer>*{flex-basis: 100%;}
 .cardcontainer{gap: 1rem;}
 .cardcontainer .card.padd1>*{text-align: center;}
+.lefttxt{display: flex;flex-direction: column;gap: 0.5rem;justify-content: flex-start;}
 .containerbig.bg-color2 .row.column>*{flex-basis: 100%;}
+.card.row.column.allign.padd1.big-card{gap: 1rem;}
+.card.row.column.allign.padd1.big-card>img{display: block;object-fit: cover;height: 37rem;}
+.row.cardcontainer.padd1.margb2>*{background-color: #b5ddff ;border: none;}
+.card.padd1{text-align: center;}
+.card.padd1 i{font-size: 6rem;}
+.row.column.D-no-column img{display: block;object-fit: cover;width: 80%;}
