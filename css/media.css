@@ -4,7 +4,8 @@
     /* #topsmall{flex-basis: calc((100% - 1rem) / 3)} */
     .T-onetwo{flex-direction: row;}
     .T-onetwo>*{flex-basis:calc(50% - 1rem);}
-    .T-row{flex-direction: row;}
+    .T-row{flex-direction: row;flex-wrap: nowrap;align-items: center;}
+    .T-row .partnersexperience>*{text-align: left;}
     .D-imgphone{justify-content: flex-start;}
 
 }

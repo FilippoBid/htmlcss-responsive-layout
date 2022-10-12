@@ -30,9 +30,11 @@ button{border-radius: 20px;background-color: white;padding: 0.5rem}
 .centertxt{text-align: center;}
 .lefttxt{text-align: left;}
 .app-development{background-color: white;border: none;}
-.borderimg>*{display: block;object-fit: cover;border-radius: 60%;width: 100%;}
-.borderimg{border-radius: 50%;width:100%;padding: 5rem;}
-.containerbig.centertxt.padd1 .card.margb1{background-color: var(--secondary-color);border: none;}
+.borderimg>*{display: block;object-fit: cover;border-radius: 50%;width: 100%;}
+.tie-man>img{display: block;object-fit: cover;border-radius: 50%;width: 100%;}
+.tie-man{width: 60%;padding: 1rem;margin: auto}
+.borderimg{;width:100%;padding: 1rem;}
+.containerbig.centertxt.padd2 .card.margb2{background-color: var(--secondary-color);border: none;}
 .row.column.cardcontainer.T-onetwo.D-onethird.margb2>*{background-color: white;border: none;}
 .row.column.cardcontainer.T-onetwo.D-onethird.margb2 .card button{border: none; background-color: var(--secondary-color);color: white;}
 
@@ -60,3 +62,5 @@ button{border-radius: 20px;background-color: white;padding: 0.5rem}
 .card.padd1{text-align: center;}
 .card.padd1 i{font-size: 6rem;}
 .row.column.D-no-column img{display: block;object-fit: cover;width: 80%;}
+.tie-man>*{display: block;object-fit: cover;}
+.centertxt.padd2{margin: auto;width: 70%;}
