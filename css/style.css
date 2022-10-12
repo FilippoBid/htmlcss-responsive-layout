@@ -18,6 +18,7 @@ padding: 0;margin: 0;}
 .padd3{padding: 3rem;}
 .margb1{margin-bottom: 1rem;}
 .margb2{margin-bottom: 2rem;}
+.margb6{margin-bottom: 6rem;}
 .autoM{margin: auto;}
 /* .paddx1y2{padding: 1.5rem,1rem;} */
 button{border-radius: 20px;background-color: white;padding: 0.5rem}
@@ -30,7 +31,7 @@ button{border-radius: 20px;background-color: white;padding: 0.5rem}
 .centertxt{text-align: center;}
 .lefttxt{text-align: left;}
 .app-development{background-color: white;border: none;}
-.borderimg>*{display: block;object-fit: cover;border-radius: 50%;width: 100%;}
+.borderimg>*{display: block;object-fit: cover;border-radius: 50%;width: 100%;aspect-ratio: 1/1;}
 .tie-man>img{display: block;object-fit: cover;border-radius: 50%;width: 100%;}
 .tie-man{width: 60%;padding: 1rem;margin: auto}
 .borderimg{;width:100%;padding: 1rem;}
@@ -63,4 +64,10 @@ button{border-radius: 20px;background-color: white;padding: 0.5rem}
 .card.padd1 i{font-size: 6rem;}
 .row.column.D-no-column img{display: block;object-fit: cover;width: 80%;}
 .tie-man>*{display: block;object-fit: cover;}
-.centertxt.padd2{margin: auto;width: 70%;}
+.centertxt.padd2{margin: auto;}
+.card.padd1.lefttxt>*{color: var(--secondary-color);} 
+.partnersexperience>h2{color: white;}
+.partnersexperience>h3{color: white;}
+.stretegicplanning>h2{color: white;}
+.stretegicplanning>h3{color: white;}
+.row.cardcontainer.padd1.margb2>.card.padd1{}
